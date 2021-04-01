@@ -4,7 +4,7 @@ pipeline {
     stage('Install dependencies') {
       steps {
         sh "chmod +x install_script.sh"
-        sh "install_scripts.sh"
+        sh "install_script.sh"
       }
     }
     
