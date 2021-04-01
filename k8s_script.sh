@@ -1,7 +1,5 @@
 #! /bin/bash
 
-cd Jenkins-k8s
-
 eksctl create cluster \
 --name DemoCluster \
 --region eu-west-2 \
